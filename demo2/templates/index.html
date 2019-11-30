@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>demo2</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <br>
+  <br>
+  <div class="container" style="background:lavender">
+	<h1>Machine Learning model API demo</h1>
+  <br>
+    <form action="{{ url_for('predict')}}"method="post">
+    <div class="row">
+        <div class="col-sm-2"  height = '10'>
+            &ensp; 
+        </div>
+        <div align="center" class="col-sm-8" style="background-color:lavender;">
+            <input type="text" name="experience" placeholder="Experience" required="required" />
+            <input type="text" name="test_score" placeholder="Test Score" required="required" />
+            <input type="text" name="interview_score" placeholder="Interview Score" required="required" />
+            <button type="submit">Predict</button>
+        </div>
+        <div class="col-sm-2">
+		        &ensp; 
+        </div>
+
+        
+    </form>
+
+   <br>
+   <br>
+   &ensp; &ensp; &ensp; &ensp; &ensp;&ensp; &ensp; &ensp;
+   {{ prediction_text }}
+
+ </div>
+
+</div>
+</body>
+</html>
