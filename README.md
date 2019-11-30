@@ -3,10 +3,7 @@
 -- Here is the collaboration of the Web-Devs I have worked with,
 
 -- very simple implementation of various tools
-
-
-
-
+<hr/>
 
 **Demo1**
 
@@ -18,9 +15,7 @@
 
 **The Dockers are built over amazon AWS ec2 server: [link](http://13.126.98.214/)**
 
-
-
-
+<hr/>
 
 **Demo2**
 
@@ -30,7 +25,7 @@
 
 it can be scaled up easily to make bigger application [link](http://15.206.165.45/)
 
-
+<hr/>
 
 **Demo3**
 
