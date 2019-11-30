@@ -42,3 +42,7 @@ it can be scaled up easily to make bigger application [link](http://15.206.165.4
 Ex : [https://08dfyhqznb.execute-api.ap-south-1.amazonaws.com/dijink/graph?key1=15](https://08dfyhqznb.execute-api.ap-south-1.amazonaws.com/dijink/graph?key1=15)
 
 Output : {&quot;num&quot;:&quot;XV&quot;}
+
+Ex : [https://08dfyhqznb.execute-api.ap-south-1.amazonaws.com/dijink/graph?key1=15](https://08dfyhqznb.execute-api.ap-south-1.amazonaws.com/dijink/graph?key1=34)
+
+Output : {&quot;num&quot;:&quot;XXXIV&quot;}
