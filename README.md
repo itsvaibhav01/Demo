@@ -16,7 +16,7 @@
 2. The PHP server is running with php7.0-apache environment
 3. Docker-compose contains all services
 
-**The Dockers are built over amazon AWS ec2 server: link**
+**The Dockers are built over amazon AWS ec2 server: [link](http://13.126.98.214/)**
 
 
 
@@ -27,6 +27,8 @@
 -- Here I used another amazon AWS ec2 server to showcase how Machine learning and AWS can combine for faster results
 
 1. Simple python app hosted directly from the server
+
+it can be scaled up easily to make bigger application [link](http://15.206.165.45/)
 
 
 
